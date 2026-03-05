@@ -1,0 +1,201 @@
+product_id,category,product_name,price,cost
+1,Electronics,Electronics Item 1,86.27,56.51
+2,Clothing,Clothing Item 2,40.81,13.08
+3,Beauty,Beauty Item 3,22.17,6.3
+4,Electronics,Electronics Item 4,185.86,120.16
+5,Beauty,Beauty Item 5,13.72,3.29
+6,Beauty,Beauty Item 6,68.73,19.92
+7,Home & Kitchen,Home & Kitchen Item 7,408.53,163.94
+8,Clothing,Clothing Item 8,144.16,53.06
+9,Clothing,Clothing Item 9,54.83,24.82
+10,Electronics,Electronics Item 10,184.48,114.26
+11,Home & Kitchen,Home & Kitchen Item 11,309.79,173.92
+12,Sports,Sports Item 12,172.46,119.79
+13,Sports,Sports Item 13,46.67,26.07
+14,Beauty,Beauty Item 14,133.96,36.48
+15,Clothing,Clothing Item 15,145.35,44.94
+16,Clothing,Clothing Item 16,158.02,78.54
+17,Clothing,Clothing Item 17,175.3,65.92
+18,Sports,Sports Item 18,199.81,114.48
+19,Home & Kitchen,Home & Kitchen Item 19,190.53,101.75
+20,Electronics,Electronics Item 20,933.24,591.89
+21,Clothing,Clothing Item 21,45.23,17.0
+22,Beauty,Beauty Item 22,40.75,10.79
+23,Electronics,Electronics Item 23,382.12,231.73
+24,Home & Kitchen,Home & Kitchen Item 24,212.56,87.84
+25,Beauty,Beauty Item 25,132.69,34.89
+26,Sports,Sports Item 26,133.8,91.37
+27,Sports,Sports Item 27,64.29,33.94
+28,Beauty,Beauty Item 28,85.46,29.86
+29,Sports,Sports Item 29,271.9,157.67
+30,Clothing,Clothing Item 30,199.51,65.37
+31,Sports,Sports Item 31,50.0,25.47
+32,Electronics,Electronics Item 32,271.62,171.66
+33,Sports,Sports Item 33,189.01,109.05
+34,Beauty,Beauty Item 34,149.46,45.71
+35,Beauty,Beauty Item 35,130.51,26.4
+36,Electronics,Electronics Item 36,1038.48,734.61
+37,Home & Kitchen,Home & Kitchen Item 37,388.93,182.03
+38,Home & Kitchen,Home & Kitchen Item 38,228.69,112.23
+39,Home & Kitchen,Home & Kitchen Item 39,486.51,268.74
+40,Beauty,Beauty Item 40,137.77,51.54
+41,Home & Kitchen,Home & Kitchen Item 41,424.0,212.65
+42,Clothing,Clothing Item 42,43.28,19.58
+43,Beauty,Beauty Item 43,143.49,55.17
+44,Electronics,Electronics Item 44,918.47,640.84
+45,Electronics,Electronics Item 45,1397.19,1083.86
+46,Home & Kitchen,Home & Kitchen Item 46,134.94,60.48
+47,Beauty,Beauty Item 47,142.57,30.96
+48,Sports,Sports Item 48,249.41,173.49
+49,Beauty,Beauty Item 49,117.22,26.45
+50,Sports,Sports Item 50,285.38,152.11
+51,Beauty,Beauty Item 51,132.14,37.61
+52,Clothing,Clothing Item 52,186.85,84.28
+53,Clothing,Clothing Item 53,146.9,55.79
+54,Home & Kitchen,Home & Kitchen Item 54,230.29,115.95
+55,Electronics,Electronics Item 55,409.46,250.92
+56,Electronics,Electronics Item 56,903.05,583.39
+57,Clothing,Clothing Item 57,16.33,7.21
+58,Electronics,Electronics Item 58,381.97,298.35
+59,Home & Kitchen,Home & Kitchen Item 59,54.01,24.17
+60,Sports,Sports Item 60,83.92,44.18
+61,Beauty,Beauty Item 61,90.67,22.54
+62,Sports,Sports Item 62,247.06,132.94
+63,Electronics,Electronics Item 63,1005.52,674.56
+64,Sports,Sports Item 64,153.43,99.09
+65,Electronics,Electronics Item 65,137.89,102.82
+66,Electronics,Electronics Item 66,410.55,261.95
+67,Sports,Sports Item 67,63.55,34.11
+68,Sports,Sports Item 68,93.7,64.15
+69,Sports,Sports Item 69,247.21,165.93
+70,Electronics,Electronics Item 70,123.35,98.66
+71,Electronics,Electronics Item 71,1455.04,1142.6
+72,Clothing,Clothing Item 72,45.77,18.18
+73,Clothing,Clothing Item 73,174.96,84.07
+74,Clothing,Clothing Item 74,85.11,42.3
+75,Home & Kitchen,Home & Kitchen Item 75,464.73,258.87
+76,Home & Kitchen,Home & Kitchen Item 76,223.04,131.92
+77,Beauty,Beauty Item 77,102.66,30.52
+78,Clothing,Clothing Item 78,69.89,34.51
+79,Beauty,Beauty Item 79,113.0,23.98
+80,Home & Kitchen,Home & Kitchen Item 80,47.44,24.52
+81,Beauty,Beauty Item 81,138.71,42.48
+82,Electronics,Electronics Item 82,1443.13,889.0
+83,Clothing,Clothing Item 83,27.68,8.68
+84,Clothing,Clothing Item 84,89.7,43.8
+85,Beauty,Beauty Item 85,44.47,14.18
+86,Beauty,Beauty Item 86,21.48,7.12
+87,Beauty,Beauty Item 87,83.19,32.19
+88,Clothing,Clothing Item 88,138.9,50.4
+89,Home & Kitchen,Home & Kitchen Item 89,209.98,112.2
+90,Home & Kitchen,Home & Kitchen Item 90,239.47,140.28
+91,Electronics,Electronics Item 91,63.51,46.0
+92,Beauty,Beauty Item 92,149.45,32.08
+93,Clothing,Clothing Item 93,108.59,35.45
+94,Home & Kitchen,Home & Kitchen Item 94,442.81,254.99
+95,Home & Kitchen,Home & Kitchen Item 95,156.79,76.46
+96,Beauty,Beauty Item 96,108.5,34.97
+97,Beauty,Beauty Item 97,11.1,4.03
+98,Home & Kitchen,Home & Kitchen Item 98,467.24,196.58
+99,Clothing,Clothing Item 99,63.93,30.55
+100,Beauty,Beauty Item 100,31.76,8.14
+101,Clothing,Clothing Item 101,147.76,50.34
+102,Home & Kitchen,Home & Kitchen Item 102,262.6,118.23
+103,Electronics,Electronics Item 103,183.83,125.87
+104,Home & Kitchen,Home & Kitchen Item 104,41.16,19.21
+105,Clothing,Clothing Item 105,132.87,46.82
+106,Sports,Sports Item 106,176.71,103.47
+107,Electronics,Electronics Item 107,212.22,167.44
+108,Clothing,Clothing Item 108,115.93,54.13
+109,Beauty,Beauty Item 109,87.35,24.98
+110,Electronics,Electronics Item 110,496.97,387.54
+111,Electronics,Electronics Item 111,1353.44,868.93
+112,Clothing,Clothing Item 112,138.38,51.3
+113,Beauty,Beauty Item 113,133.78,37.63
+114,Beauty,Beauty Item 114,114.93,44.27
+115,Clothing,Clothing Item 115,174.95,86.64
+116,Clothing,Clothing Item 116,178.06,54.3
+117,Home & Kitchen,Home & Kitchen Item 117,395.55,190.79
+118,Clothing,Clothing Item 118,64.36,29.44
+119,Electronics,Electronics Item 119,604.69,367.5
+120,Sports,Sports Item 120,86.17,57.16
+121,Sports,Sports Item 121,121.16,80.46
+122,Clothing,Clothing Item 122,56.24,24.3
+123,Sports,Sports Item 123,115.27,77.56
+124,Home & Kitchen,Home & Kitchen Item 124,188.55,94.63
+125,Beauty,Beauty Item 125,56.36,11.58
+126,Home & Kitchen,Home & Kitchen Item 126,105.71,62.63
+127,Home & Kitchen,Home & Kitchen Item 127,38.36,19.92
+128,Home & Kitchen,Home & Kitchen Item 128,369.7,171.07
+129,Beauty,Beauty Item 129,147.79,32.98
+130,Beauty,Beauty Item 130,36.61,7.65
+131,Sports,Sports Item 131,25.47,17.45
+132,Beauty,Beauty Item 132,106.16,41.2
+133,Clothing,Clothing Item 133,82.38,25.87
+134,Home & Kitchen,Home & Kitchen Item 134,319.11,169.98
+135,Electronics,Electronics Item 135,1093.64,721.87
+136,Home & Kitchen,Home & Kitchen Item 136,340.11,158.23
+137,Home & Kitchen,Home & Kitchen Item 137,286.12,125.43
+138,Sports,Sports Item 138,211.26,143.78
+139,Beauty,Beauty Item 139,89.67,25.22
+140,Electronics,Electronics Item 140,490.62,315.0
+141,Beauty,Beauty Item 141,94.93,25.1
+142,Sports,Sports Item 142,146.59,79.56
+143,Sports,Sports Item 143,243.28,168.34
+144,Clothing,Clothing Item 144,136.89,48.84
+145,Beauty,Beauty Item 145,56.93,20.7
+146,Clothing,Clothing Item 146,139.47,48.11
+147,Clothing,Clothing Item 147,42.26,13.07
+148,Sports,Sports Item 148,193.1,126.23
+149,Sports,Sports Item 149,138.97,86.99
+150,Clothing,Clothing Item 150,147.89,55.72
+151,Sports,Sports Item 151,92.1,58.13
+152,Electronics,Electronics Item 152,1344.36,1037.96
+153,Electronics,Electronics Item 153,1178.71,758.82
+154,Beauty,Beauty Item 154,75.04,23.37
+155,Electronics,Electronics Item 155,711.87,541.22
+156,Beauty,Beauty Item 156,148.3,47.32
+157,Sports,Sports Item 157,193.48,124.57
+158,Beauty,Beauty Item 158,69.74,26.6
+159,Sports,Sports Item 159,271.73,176.28
+160,Sports,Sports Item 160,148.77,96.75
+161,Home & Kitchen,Home & Kitchen Item 161,387.59,195.45
+162,Clothing,Clothing Item 162,65.8,20.76
+163,Home & Kitchen,Home & Kitchen Item 163,132.56,61.93
+164,Beauty,Beauty Item 164,21.28,4.9
+165,Sports,Sports Item 165,215.84,138.41
+166,Electronics,Electronics Item 166,651.56,434.05
+167,Sports,Sports Item 167,139.34,75.43
+168,Sports,Sports Item 168,132.11,86.39
+169,Electronics,Electronics Item 169,1292.26,973.23
+170,Sports,Sports Item 170,156.17,107.53
+171,Home & Kitchen,Home & Kitchen Item 171,381.67,217.82
+172,Sports,Sports Item 172,173.01,111.92
+173,Beauty,Beauty Item 173,135.69,40.39
+174,Home & Kitchen,Home & Kitchen Item 174,229.2,93.01
+175,Home & Kitchen,Home & Kitchen Item 175,341.06,190.87
+176,Clothing,Clothing Item 176,170.49,82.5
+177,Beauty,Beauty Item 177,84.78,32.33
+178,Beauty,Beauty Item 178,89.01,18.28
+179,Sports,Sports Item 179,62.32,36.91
+180,Electronics,Electronics Item 180,427.23,284.31
+181,Sports,Sports Item 181,114.88,74.93
+182,Sports,Sports Item 182,101.52,70.07
+183,Sports,Sports Item 183,94.37,48.73
+184,Electronics,Electronics Item 184,1136.09,693.49
+185,Home & Kitchen,Home & Kitchen Item 185,127.63,52.8
+186,Electronics,Electronics Item 186,1143.64,903.39
+187,Clothing,Clothing Item 187,170.26,72.24
+188,Clothing,Clothing Item 188,38.35,16.64
+189,Beauty,Beauty Item 189,142.69,41.81
+190,Home & Kitchen,Home & Kitchen Item 190,388.11,168.27
+191,Beauty,Beauty Item 191,144.92,49.8
+192,Clothing,Clothing Item 192,193.47,62.22
+193,Electronics,Electronics Item 193,1396.89,999.0
+194,Sports,Sports Item 194,134.08,86.21
+195,Electronics,Electronics Item 195,908.54,696.05
+196,Clothing,Clothing Item 196,33.85,15.38
+197,Beauty,Beauty Item 197,122.77,44.1
+198,Beauty,Beauty Item 198,119.57,32.22
+199,Sports,Sports Item 199,206.92,106.31
+200,Home & Kitchen,Home & Kitchen Item 200,26.07,12.62

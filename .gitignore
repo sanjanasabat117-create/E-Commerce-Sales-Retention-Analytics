@@ -1,0 +1,14 @@
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Data files (Optional: some prefer to push synthetic data, but usually ignored if large)
+# data/*.csv
+
+# Power BI temp files
+*.tmp
+*.pbix.pbi
+
+# OS files
+.DS_Store
+Thumbs.db
