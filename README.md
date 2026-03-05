@@ -4,10 +4,12 @@
 ![Tech Stack](https://img.shields.io/badge/Tech_Stack-Python_|_SQL_|_Power_BI-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Complete-success)
 
-## 📌 Project Overview
-This project is an end-to-end data analytics solution designed to evaluate e-commerce performance, uncover sales trends, and analyze customer retention. Using a synthetic dataset representing a global retail footprint, this project simulates a real-world business environment where actionable insights are extracted through Python, SQL, and Power BI.
-
-The analysis tackles critical business questions regarding revenue growth, product return rates, session-to-order conversions, and long-term customer loyalty (cohort retention).
+## 📂 Project Methodology
+To ensure this analysis provides real business value, I followed a structured 4-stage analytical workflow:
+1.  **Data Engineering & Synthesis**: Built a Python pipeline to generate 3 years of transactional data with realistic seasonal trends and logical constraints (e.g., users must join before they can order).
+2.  **ETL & Quality Control**: Processed raw CSVs using SQL to validate date logic and handle null values.
+3.  **Advanced Analytics**: Performed cohort retention and funnel conversion analysis using PostgreSQL window functions.
+4.  **Strategic Visualization**: Developed a multi-page Power BI dashboard centered around a Star Schema model to deliver insights to stakeholders.
 
 ## 🚀 Business Problems Addressed
 1. **Sales & Profitability Tracking**: Identifying the most profitable product categories and evaluating year-over-year growth.
@@ -37,6 +39,8 @@ You can find the comprehensive SQL queries in `ecommerce_analysis.sql`. Some maj
 ## 📊 Dashboard Visualizations
 The analysis is presented through a 3-page interactive Power BI dashboard. For a detailed breakdown of each page with full-resolution screenshots, please see:
 
+### Dashboard Preview:
+![Executive Dashboard Preview](assets/dashboard_summary.png)
 👉 **[View Detailed Dashboard Analysis](DASHBOARD.md)**
 
 ### Quick KPI Highlights
@@ -53,11 +57,11 @@ The analysis is presented through a 3-page interactive Power BI dashboard. For a
 * **Complex SQL**: The cohort retention matrix required advanced logic to "pivot" dates into monthly indexes, a common real-world hurdle for Data Analysts.
 * **Aesthetic vs Functional**: Balancing high-level KPIs with granular operational data (like return reasons) to serve both Executives and Operations Managers.
 
-## 📈 Key Business Recommendations
-1. **Reduce Clothing Returns**: Since "Wrong Size" is a top return reason, implementing an AI-size recommender could save ~5% in revenue leakage.
-2. **Optimize Mobile Checkout**: With Mobile being the primary device, even a 1% increase in conversion rate would significantly boost the $2.1M baseline.
-3. **Retention Strategy**: Focus on the 2nd-month drop-off seen in the cohort analysis by launching a "New Member" loyalty discount.
+## 📈 My Strategic Recommendations
+Based on the dashboard insights, I proposed the following actions to the hypothetical business team:
+1.  **Reduce Clothing Returns**: Since "Wrong Size" is the top return reason (15% rate), implementing an AI-size recommender could recover ~$100K in annual revenue.
+2.  **Mobile Conversion Optimization**: Mobile device conversions lag behind Desktop (12% vs 18%). Improving the mobile UI could bridge this gap and boost overall profit by 5%.
+3.  **Loyalty Re-engagement**: Cohort analysis shows a 30% drop in user activity after Month 1. I recommend a "Month 2 Loyalty Discount" campaign to improve retention.
 
 ---
 *Created by Sanjana | [GitHub Repository](https://github.com/sanjanasabat117-create/E-Commerce-Sales-Retention-Analytics) | [LinkedIn](https://www.linkedin.com/in/yourprofile)*
-

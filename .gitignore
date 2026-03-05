@@ -1,14 +1,20 @@
-# Python caches
+# Python
 __pycache__/
 *.py[cod]
+*$py.class
+venv/
+ENV/
 
-# Data files (Optional: some prefer to push synthetic data, but usually ignored if large)
-# data/*.csv
+# Data Files (Keep samples, ignore large ones if any)
+# /data/*.csv (Optional: uncomment if you want to push to GitHub without large data)
 
-# Power BI temp files
-*.tmp
-*.pbix.pbi
-
-# OS files
+# System
 .DS_Store
 Thumbs.db
+
+# VS Code
+.vscode/
+
+# Project Specific
+ecommerce_data.db
+assets/*.zip

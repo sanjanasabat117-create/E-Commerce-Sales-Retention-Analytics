@@ -1,0 +1,10 @@
+# Standard Python libraries
+pandas
+numpy
+faker
+
+# Optional for specialized analysis
+scipy
+sqlalchemy
+matplotlib
+seaborn

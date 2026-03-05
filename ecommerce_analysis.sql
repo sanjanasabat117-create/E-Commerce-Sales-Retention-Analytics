@@ -5,7 +5,27 @@
 
 
 -- ==========================================
--- 1. SCHEMA CREATION
+-- 1. DATA QUALITY & VALIDATION
+-- ==========================================
+
+-- Check for NULLs in critical ID columns
+SELECT 
+    (SELECT COUNT(*) FROM users WHERE user_id IS NULL) AS null_users,
+    (SELECT COUNT(*) FROM orders WHERE order_id IS NULL) AS null_orders,
+    (SELECT COUNT(*) FROM order_items WHERE order_id IS NULL) AS null_order_items;
+
+-- Check for potential date anomalies (orders before user join)
+SELECT 
+    COUNT(*) AS illogical_dates
+FROM 
+    orders o
+JOIN 
+    users u ON o.user_id = u.user_id
+WHERE 
+    o.order_date < u.join_date;
+
+-- ==========================================
+-- 2. SCHEMA CREATION
 -- ==========================================
 
 CREATE TABLE users (
@@ -61,8 +81,11 @@ CREATE TABLE returns (
 );
 
 -- ==========================================
--- 2. SALES & PROFITABILITY KPIs
+-- 3. SALES & PROFITABILITY KPIs
 -- ==========================================
+
+-- Objective: Identify which product categories are driving the most value 
+-- and where we have the healthiest profit margins.
 
 -- Query 1: Overall Revenue, Cost, and Profit Margin by Category
 SELECT 
@@ -110,8 +133,11 @@ ORDER BY
 
 
 -- ==========================================
--- 3. CUSTOMER RETENTION (COHORT ANALYSIS)
+-- 4. CUSTOMER RETENTION (COHORT ANALYSIS)
 -- ==========================================
+
+-- Objective: Track the "stickiness" of our customer base by measuring 
+-- how many users return to buy again after their first month.
 
 -- Query 3: Monthly Customer Retention Rates based on First Purchase
 WITH FirstPurchase AS (

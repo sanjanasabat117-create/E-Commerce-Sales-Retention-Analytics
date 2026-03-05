@@ -20,6 +20,8 @@ DAYS_RANGE = (END_DATE - START_DATE).days
 
 # ----------------- 1. Generate Products -----------------
 print("Generating Products...")
+# Business Context: We define categories with realistic ranges. 
+# Clothing has higher return rates due to sizing, while Beauty has the lowest due to hygiene restrictions.
 categories = {
     'Electronics': {'price_range': (50, 1500), 'cost_margin': (0.6, 0.8), 'return_rate': 0.1},
     'Clothing': {'price_range': (15, 200), 'cost_margin': (0.3, 0.5), 'return_rate': 0.15},
@@ -78,7 +80,8 @@ NUM_SESSIONS = NUM_USERS * random.randint(3, 8)
 sessions = []
 for i in range(1, NUM_SESSIONS + 1):
     user_id = random.randint(1, NUM_USERS)
-    # Session date must be after user join date
+    # Data Integrity Check: Session date MUST be after user join date. 
+    # Realistically, users spend some time on the site after joining.
     user_join = df_users.loc[df_users['user_id'] == user_id, 'join_date'].values[0]
     user_join = pd.to_datetime(user_join)
     
@@ -140,6 +143,8 @@ for _, session in valid_sessions.iterrows():
             order_total += price * qtw
             order_item_counter += 1
             
+        # Funnel Logic: Most orders are delivered, but we maintain a small percentage 
+        # of cancellations and processing states for operational realism.
         status = random.choices(['Delivered', 'Shipped', 'Processing', 'Cancelled'], 
                                 weights=[0.85, 0.05, 0.02, 0.08])[0]
                                 
