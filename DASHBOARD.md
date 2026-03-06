@@ -10,6 +10,8 @@ Before building the visuals, a robust **Star Schema** was established in Power B
 - **Dimension Tables**: `users`, `products`, `sessions`
 - **Relationships**: 1-to-Many relationships established via `UserID`, `ProductID`, and `SessionID`.
 - **Advanced Modeling**: A dedicated `Date` hierarchy was created to support Time Intelligence functions.
+13: 
+14: ![Data Model](assets/data_model.png)
 
 ---
 
@@ -76,6 +78,18 @@ CALCULATE(
 1. **Filter by Region**: Use the country slicer on Page 1 to see how conversion rates vary by market.
 2. **Drill Down**: Click on a specific product category to see its specific return rate and retention impact.
 3. **Cross-Filtering**: Select a specific month in the Cohort table to see the corresponding sales trend during that period.
+
+---
+
+## 📦 Page 3: Operations and Returns
+This page provides granular insights into operational health and return patterns.
+
+![Operations and Returns](assets/dashboard_operations.png)
+
+### Key Metrics:
+- **Total Items Returned**: 442
+- **Return Rate %**: 5.35%
+- **Top Return Reasons**: "Wrong Item", "Defective"
 
 ---
 [⬅️ Back to README](README.md)

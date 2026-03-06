@@ -40,7 +40,17 @@ You can find the comprehensive SQL queries in `ecommerce_analysis.sql`. Some maj
 The analysis is presented through a 3-page interactive Power BI dashboard. For a detailed breakdown of each page with full-resolution screenshots, please see:
 
 ### Dashboard Preview:
-![Executive Dashboard Preview](assets/dashboard_summary.png)
+
+````carousel
+![Executive Summary](assets/dashboard_summary.png)
+<!-- slide -->
+![Retention & Funnel Analysis](assets/dashboard_retention.png)
+<!-- slide -->
+![Operations and Returns](assets/dashboard_operations.png)
+<!-- slide -->
+![Star Schema Data Model](assets/data_model.png)
+````
+
 👉 **[View Detailed Dashboard Analysis](DASHBOARD.md)**
 
 ### Quick KPI Highlights
@@ -59,9 +69,9 @@ The analysis is presented through a 3-page interactive Power BI dashboard. For a
 
 ## 📈 My Strategic Recommendations
 Based on the dashboard insights, I proposed the following actions to the hypothetical business team:
-1.  **Reduce Clothing Returns**: Since "Wrong Size" is the top return reason (15% rate), implementing an AI-size recommender could recover ~$100K in annual revenue.
-2.  **Mobile Conversion Optimization**: Mobile device conversions lag behind Desktop (12% vs 18%). Improving the mobile UI could bridge this gap and boost overall profit by 5%.
-3.  **Loyalty Re-engagement**: Cohort analysis shows a 30% drop in user activity after Month 1. I recommend a "Month 2 Loyalty Discount" campaign to improve retention.
+1. **Reduce Clothing Returns**: Since "Wrong Size" is the top return reason (15% rate), implementing an AI-size recommender could recover ~$100K in annual revenue.
+2. **Regional Expansion (Tier 2/3 Cities)**: India shows a 25% yearly growth in non-metro cities. Optimizing delivery logistics and adding vernacular (regional language) search could tap into a $200K revenue opportunity.
+3. **Payment Optimization (UPI/COD)**: Since mobile is the primary channel, implementing deeper UPI integration and "One-Tap" payments would reduce cart abandonment by 10%.
 
 ---
-*Created by Sanjana | [GitHub Repository](https://github.com/sanjanasabat117-create/E-Commerce-Sales-Retention-Analytics) | [LinkedIn](https://www.linkedin.com/in/yourprofile)*
+*Created by Sanjana | [GitHub Repository](https://github.com/sanjanasabat117-create/E-Commerce-Sales-Retention-Analytics) | [LinkedIn](https://www.linkedin.com/in/sanjana-sabat-7b9872271)*
