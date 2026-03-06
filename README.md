@@ -41,16 +41,6 @@ The analysis is presented through a 3-page interactive Power BI dashboard. For a
 
 ### Dashboard Preview:
 
-````carousel
-![Executive Summary](assets/dashboard_summary.png)
-<!-- slide -->
-![Retention & Funnel Analysis](assets/dashboard_retention.png)
-<!-- slide -->
-![Operations and Returns](assets/dashboard_operations.png)
-<!-- slide -->
-![Star Schema Data Model](assets/data_model.png)
-````
-
 👉 **[View Detailed Dashboard Analysis](DASHBOARD.md)**
 
 ### Quick KPI Highlights
